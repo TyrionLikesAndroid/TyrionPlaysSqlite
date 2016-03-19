@@ -109,7 +109,7 @@ public class MainActivity extends ActionBarActivity {
         myCursor.moveToFirst();
 
         for(int i=1; i <= myCursor.getCount(); i++) {
-            System.out.println("Row[" + i + "]: " + myCursor.getString(1) + ", " + myCursor.getString(2));
+            System.out.println("Row [" + i + "]: " + myCursor.getString(1) + ", " + myCursor.getString(2));
             myCursor.moveToNext();
         }
 
